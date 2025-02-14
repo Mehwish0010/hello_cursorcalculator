@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "my-cursor"
+version = "0.1.0"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" },
+]
+description = "A calculator package with basic and advanced mathematical operations"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+calc = "my_cursor.usage:main"
+
+[project.urls]
+"Homepage" = "https://github.com/username/your-package-name"
+"Bug Tracker" = "https://github.com/username/your-package-name/issues" 
